@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us & Book Inspection | Premier Properties Consult Ltd</title>
+    <meta name="description" content="Get in touch with Premier Properties Consult Ltd. Visit our office in Jimeta Yola, call 09039532137, or schedule a free site inspection.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark text-light">
+
+    <div class="custom-cursor" id="cursor"></div>
+    <div class="custom-cursor-follower" id="cursor-follower"></div>
+
+    <header class="header fixed-top" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="brand-logo">
+                <div class="logo-mark">PPC</div>
+                <div class="logo-text">
+                    <span class="brand-name">PREMIER PROPERTIES</span>
+                    <span class="brand-sub">CONSULT LTD • RC 7268488</span>
+                </div>
+            </a>
+
+            <nav class="desktop-nav" id="desktopNav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="properties.html" class="nav-link">Properties</a></li>
+                    <li><a href="about.html#why-ppc" class="nav-link">Why PPC</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#inquire" class="btn btn-gold btn-sm d-none-mobile">Book Inspection</a>
+                <button class="hamburger-btn" id="menuToggle" aria-label="Toggle Navigation">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav-overlay" id="mobileNav">
+        <div class="mobile-nav-content">
+            <ul class="mobile-nav-list">
+                <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                <li><a href="properties.html" class="mobile-nav-link">Properties</a></li>
+                <li><a href="about.html#why-ppc" class="mobile-nav-link">Why PPC</a></li>
+                <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+                <li><a href="contact.html" class="mobile-nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <section class="page-banner bg-dark-secondary py-large pos-relative overflow-hidden pt-5">
+            <div class="container pos-relative z-1 pt-5">
+                <div class="max-w-700">
+                    <span class="text-gold tracking-widest text-uppercase fs-6 d-block mb-2">Connect With PPC</span>
+                    <h1 class="font-serif display-3 text-white mb-3">INQUIRE & BOOK INSPECTION</h1>
+                    <p class="text-muted lead-text">Speak with our property advisors or book a direct site inspection in Yola today.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-large bg-dark pos-relative" id="inquire">
+            <div class="container">
+                <div class="row g-5">
+                    <!-- Office Details -->
+                    <div class="col-lg-5">
+                        <div class="glass-card p-4 p-md-5 h-100">
+                            <h2 class="font-serif text-white fs-3 mb-4">PREMIER PROPERTIES CONSULT LTD</h2>
+                            
+                            <div class="mb-4">
+                                <span class="text-gold fs-8 tracking-widest text-uppercase d-block mb-1">Corporate Registration</span>
+                                <p class="text-white font-serif fs-5 mb-0">RC 7268488</p>
+                            </div>
+
+                            <div class="mb-4">
+                                <span class="text-gold fs-8 tracking-widest text-uppercase d-block mb-1">Headquarters</span>
+                                <p class="text-muted mb-0">
+                                    No 5 Bekaji Road,<br>
+                                    Opposite Unity Bank PLC,<br>
+                                    Jimeta, Yola, Adamawa State, Nigeria.
+                                </p>
+                            </div>
+
+                            <div class="mb-4">
+                                <span class="text-gold fs-8 tracking-widest text-uppercase d-block mb-1">Phone & WhatsApp Lines</span>
+                                <p class="text-white fs-5 mb-0">
+                                    <i class="fas fa-phone text-gold me-2"></i> 09039532137
+                                </p>
+                            </div>
+
+                            <div class="mb-4">
+                                <span class="text-gold fs-8 tracking-widest text-uppercase d-block mb-1">Social Channels</span>
+                                <div class="social-links d-flex gap-3 mt-2">
+                                    <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social-icon" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                                </div>
+                            </div>
+
+                            <a href="https://wa.me/2349039532137" target="_blank" class="btn btn-gold w-100 mt-3">
+                                <i class="fab fa-whatsapp me-2"></i> CHAT ON WHATSAPP
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Form -->
+                    <div class="col-lg-7">
+                        <div class="glass-card p-4 p-md-5">
+                            <h3 class="font-serif text-white fs-4 mb-4">SEND AN INQUIRY</h3>
+                            
+                            <div id="formSuccessMessage" class="d-none glass-inner p-4 mb-4 text-center border-gold">
+                                <i class="fas fa-check-circle text-gold display-4 mb-3 d-block"></i>
+                                <h4 class="font-serif text-white fs-5">THANK YOU</h4>
+                                <p class="text-muted mb-0">Your inquiry has been received. A PPC representative will contact you shortly.</p>
+                            </div>
+
+                            <form id="contactForm">
+                                <div class="mb-3">
+                                    <label class="form-label text-light fs-7">Full Name *</label>
+                                    <input type="text" class="form-control custom-input" required placeholder="Enter your full name">
+                                </div>
+
+                                <div class="row g-3 mb-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label text-light fs-7">Phone Number *</label>
+                                        <input type="tel" class="form-control custom-input" required placeholder="e.g. 09039532137">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label text-light fs-7">Email Address</label>
+                                        <input type="email" class="form-control custom-input" placeholder="name@domain.com">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-light fs-7">Property Interested In *</label>
+                                    <select class="form-select custom-select" id="propertySelect" required>
+                                        <option value="">Select a Property Location</option>
+                                        <option value="HaskeCity">Haske City (Yolde-Pate)</option>
+                                        <option value="PremierCourt">Premier Court Phase 1 (Jan Kasa)</option>
+                                        <option value="HighwayLand">Main Highway Of Adamawa Land</option>
+                                        <option value="General">General Inquiry / Consultation</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label class="form-label text-light fs-7">Message / Inspection Request</label>
+                                    <textarea class="form-control custom-input" rows="4" placeholder="Let us know your inspection availability or specific requirements..."></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-gold btn-lg w-100">
+                                    <span>SEND INQUIRY</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer bg-black text-light pt-5 pb-4 pos-relative border-top-gold">
+        <div class="container">
+            <div class="footer-bottom pt-4 text-center fs-8 text-muted">
+                <p class="mb-0">&copy; 2026 Premier Properties Consult Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
